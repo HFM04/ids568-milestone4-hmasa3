@@ -1,13 +1,13 @@
 {
-  "num_workers": 1,
-  "num_partitions": 4,
+  "num_workers": 4,
+  "num_partitions": 16,
   "steps": {
-    "load": 48.94,
-    "clean": 1.6,
-    "feature_engineering": 0.14,
-    "aggregations": 0.14,
-    "write": 40.17
+    "load": 30.24,
+    "clean": 1.5,
+    "feature_engineering": 0.16,
+    "aggregations": 0.16,
+    "write": 28.13
   },
   "row_count": 10000000,
-  "total_runtime_seconds": 105.2
+  "total_runtime_seconds": 72.05
 }
