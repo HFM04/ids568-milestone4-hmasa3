@@ -1,0 +1,23 @@
+# requirements.txt
+# -----------------
+# Python dependencies for Milestone 4
+#
+# Install with: pip install -r requirements.txt
+#
+# IMPORTANT: Java 8 or 11 must also be installed for PySpark to work.
+# Check: java -version
+# Install: sudo apt install openjdk-11-jdk  (Ubuntu/Debian)
+#          brew install openjdk@11           (macOS)
+
+# Apache Spark Python interface
+# Used in pipeline.py for distributed processing
+pyspark==3.5.0
+
+# Data manipulation (used in benchmarking/analysis scripts)
+pandas==2.1.4
+
+# Visualization for performance charts in the report
+matplotlib==3.8.2
+
+# Numerical computing (optional — for percentile calculations)
+numpy==1.26.2
