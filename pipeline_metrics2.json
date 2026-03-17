@@ -1,0 +1,13 @@
+{
+  "num_workers": 1,
+  "num_partitions": 4,
+  "steps": {
+    "load": 48.94,
+    "clean": 1.6,
+    "feature_engineering": 0.14,
+    "aggregations": 0.14,
+    "write": 40.17
+  },
+  "row_count": 10000000,
+  "total_runtime_seconds": 105.2
+}
